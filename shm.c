@@ -76,7 +76,7 @@ int shm_open(int id, char **pointer) {
 
 
 
-return 0; //added to remove compiler warning -- you should decide what to return
+	return 0; //added to remove compiler warning -- you should decide what to return
 }
 
 
@@ -98,5 +98,5 @@ int shm_close(int id) {
 
 
 
-return 0; //added to remove compiler warning -- you should decide what to return
+	return 0; //added to remove compiler warning -- you should decide what to return
 }
